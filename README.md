@@ -29,8 +29,8 @@ Wireshark (packet/traffic analysis), Maltego (OSINT/recon)
 
 | # | Lab | Attack Technique | MITRE ATT&CK ID | Tools Used | Status |
 |---|-----|------------------|------------------|-----------------|--------|
-| 01 | [Failed RDP Brute-Force Detection](./01-failed-rdp-bruteforce-detection/report.md) | RDP Brute Force | T1110 – Brute Force | Kali, Windows 7, Splunk (Event ID 4625) | ✅ Complete |
-| 02 | Metasploitable vsftpd Backdoor Exploitation | Service Exploitation | T1190 – Exploit Public-Facing Application | Kali, Metasploitable 2, Nmap, Metasploit | 🔜 Planned |
+| 01 | [Failed RDP Brute-Force Detection](./01-failed-rdp-bruteforce-detection/report.md) | RDP Brute Force | T1110 – Brute Force | Kali, Windows 7, Splunk (Event ID 4625) | 🔜 Planned |
+| 02 | Metasploitable vsftpd Backdoor Exploitation | Service Exploitation | T1190 – Exploit Public-Facing Application | Kali, Metasploitable 2, Nmap, Metasploit | ✅ Complete |
 | 03 | Windows 7 EternalBlue (MS17-010) Exploitation & Detection | SMB Remote Code Execution | T1210 – Exploitation of Remote Services | Kali, Windows 7, Metasploit, Splunk | 🔜 Planned |
 | 04 | Nmap Reconnaissance & Scan Detection | Network Service Scanning | T1046 | Kali, Nmap, Wireshark, Splunk | 🔜 Planned |
 | 05 | Web Application VAPT (DVWA/Metasploitable) | XSS / SQLi / IDOR | T1190 | Burp Suite, Kali | 🔜 Planned |
